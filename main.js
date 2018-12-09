@@ -1,7 +1,3 @@
-VK.init({
-    apiId: 6774641
-});
-
 const vk = document.querySelector('.vk');
 
 vk.addEventListener('click', () => {
