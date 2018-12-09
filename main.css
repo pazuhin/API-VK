@@ -1,0 +1,91 @@
+.menu{
+    padding: 0;
+li{
+    display: inline-block;
+    list-style: none;
+}
+}
+
+.container {
+    padding: 0 2%;
+}
+
+.createBtn, .closeBtn, .createCookie, .delCookie, .createOneCookie {
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    padding: .8em 1em calc(.8em + 3px);
+    border-radius: 3px;
+    background: rgb(64,199,129);
+    box-shadow: 0 -3px rgb(53,167,110) inset;
+    transition: 0.2s;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+
+&:hover {
+     background: rgb(53, 167, 110);
+ }
+&:active {
+     background: rgb(33,147,90);
+     box-shadow: 0 3px rgb(33,147,90) inset;
+ }
+}
+
+.text {
+    margin-bottom: 20px;
+}
+
+input {
+    padding: .8em 1em calc(.8em + 0px);
+    outline: none;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+th {
+    padding: 15px;
+    width: 25%;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+table {
+    border: 2px solid black;
+    box-sizing: border-box;
+    border-collapse: collapse;
+}
+td {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.next, .vk {
+    margin-left: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    color: #222;
+    border: 1px solid #222;
+    padding: 5px;
+    border-radius: 5px;
+    display: block;
+    width: 100px;
+    text-align: center;
+    transition: 0.5s;
+    margin-bottom: 20px;
+}
+
+.next:hover {
+    background-color: #222;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.vk:hover {
+    background-color: #222;
+    color: #fff;
+    transition: 0.5s;
+}
+
+.block {
+    margin-left: 20px;
+}
