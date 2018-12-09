@@ -9,6 +9,22 @@
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
+<div id="vk_api_transport"></div>
+<script type="text/javascript">
+    window.vkAsyncInit = function() {
+        VK.init({
+            apiId: 6774641
+        });
+    };
+
+    setTimeout(function() {
+        var el = document.createElement("script");
+        el.type = "text/javascript";
+        el.src = "https://vk.com/js/api/openapi.js?160";
+        el.async = true;
+        document.getElementById("vk_api_transport").appendChild(el);
+    }, 0);
+</script>
 <div class="wrapper">
     <div class="maincontent">
         <a class="vk" href="#">click me</a>
